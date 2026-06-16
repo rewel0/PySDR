@@ -10,7 +10,6 @@ N = 100 # number of points to simulate, and our FFT size
 np.hamming(N)
 
 
-
 t = np.arange(N)
 s = np.sin(0.15*2*np.pi*t)
 

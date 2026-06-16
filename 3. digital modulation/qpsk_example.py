@@ -20,3 +20,6 @@ r = x_symbols * np.exp(1j*phase_noise)+ n * np.sqrt(noise_power)
 plt.plot(np.real(r), np.imag(r), '.')
 plt.grid(True)
 plt.show()
+
+
+
